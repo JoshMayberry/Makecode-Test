@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="RXe8QO{P:xv#tVL%7c,}">mySprite</variable><variable type="KIND_SpriteKind" id="u`/a,Jp*zuG0/IaKoN:9">Player</variable><variable type="KIND_SpriteKind" id=")lbWF2:7ftTrc?iKHsS%">Projectile</variable><variable type="KIND_SpriteKind" id="tiIHBFw.km|;iDbr,aNx">Food</variable><variable type="KIND_SpriteKind" id="my4fa:+,qtwQmH2{23AI">Enemy</variable></variables><block type="pxt-on-start" id="1$4y2T*aUTsZPeNYyoib" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="LRxmO#EQt=w-mXDY+Q9|"><field name="VAR" id="RXe8QO{P:xv#tVL%7c,}">mySprite</field><value name="VALUE"><shadow type="math_number" id="ZY[WK$kskZNyU!lT+f]}"><field name="NUM">0</field></shadow><block type="spritescreate" id="u`w)sPpEj5keh31p9/D5"><value name="img"><shadow type="screen_image_picker" id="rE9[6Biscg85-_Ej?Nt0"><field name="img">img`
+. . . . . . c b b b b b . . . . 
+. 1 1 3 . . 4 4 2 4 4 b b b . . 
+1 1 3 . 4 4 4 4 2 4 4 4 4 b c . 
+. 1 . 4 4 4 4 4 2 4 4 5 4 4 e . 
+. 1 1 1 1 4 5 4 2 4 4 4 4 4 b c 
+e 3 4 4 1 1 1 4 2 4 4 4 5 4 4 e 
+e b b 4 4 4 4 2 2 4 4 4 4 4 b e 
+. e b 4 4 4 4 2 1 4 4 4 4 b e . 
+8 7 e e b 2 2 4 4 1 1 b e e 6 8 
+8 7 2 e 2 2 e e e e 1 e e 2 7 8 
+e 6 6 2 2 2 2 2 2 2 1 2 2 6 c e 
+e c 6 7 6 6 7 7 7 1 6 7 6 c c e 
+e b e 8 8 c c 8 8 1 c c 8 e b e 
+e e b e c c e e e e e c e b e e 
+. e e b b 4 4 4 4 4 4 4 4 e e . 
+. . . c c c c c e e e e e . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="SF(r#{Qi#GUr+Mq~hcy9"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="Sprite_blockCombine_set" id="6_VEh-Vorovhf_K.1y.-"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get" id="v([UFlQ05cY{5g5+%KUa"><field name="VAR" id="RXe8QO{P:xv#tVL%7c,}">mySprite</field></block></value><value name="value"><shadow type="math_number" id="(26tU2].9zg_E|x8aW54"><field name="NUM">0</field></shadow></value></block></next></block></statement></block></xml>
